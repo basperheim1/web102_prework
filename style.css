@@ -64,9 +64,29 @@ body {
 
 #button-container {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 button {
+    font-family: 'Cabin';
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+}
+
+.stats-container {
+    display: flex;
+    align-items: center;   
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#search{
     font-family: 'Cabin';
     border: none;
     padding: 1%;
